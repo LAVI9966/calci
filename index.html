@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LG Calci</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Calculator</h1>
+    </header>
+    <div id="container">
+        <div id="cal_con">
+            <input type="text"  name ="display" id="input">
+            <input type="button" value="AC" onclick="clearw('`')" class="btn" >
+            <input type="button" value="DE" onclick="dect()" class="btn" >
+            <input type="button" value="%" onclick="updatval('%')" class="btn" >
+            <input type="button" value="=" onclick="calc()" class="btn" >
+            <input type="button" value="7" onclick="updatval('7')" class="btn btn-2">
+            <input type="button" value="8" onclick="updatval('8')" class="btn btn-2" >
+            <input type="button" value="9" onclick="updatval('9')" class="btn btn-2" >
+            <input type="button" value="/" onclick="updatval('/')" class="btn" >
+            <input type="button" value="4" onclick="updatval('4')" class="btn btn-2" >
+            <input type="button" value="5" onclick="updatval('5')" class="btn btn-2" >
+            <input type="button" value="6" onclick="updatval('6')" class="btn btn-2" >
+            <input type="button" value="*" onclick="updatval('*')" class="btn" >
+            <input type="button" value="1" onclick="updatval('1')" class="btn btn-2" >
+            <input type="button" value="2" onclick="updatval('2')" class="btn btn-2" >
+            <input type="button" value="3" onclick="updatval('3')" class="btn btn-2" >
+            <input type="button" value="-" onclick="updatval('-')" class="btn" >
+            <input type="button" value="." onclick="updatval('.')" class="btn btn-2" >
+            <input type="button" value="00" onclick="updatval('00')" class="btn btn-2" >
+            <input type="button" value="0" onclick="updatval('0')" class="btn btn-2" >
+            <input type="button" value="+" onclick="updatval('+')" class="btn" >
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
